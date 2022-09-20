@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <head>
 <link rel="stylesheet" href="style.css">
@@ -14,29 +13,30 @@
         <tr>
         <td><button style="color:red" onclick="fun()">C</button></td>
         <td><button style=font-size:25px; onclick="cancel()">⬅️</button></td>
-        <td><button onclick="Show('%')">%</button></td>
-        <td><button style=font-size:25px; onclick="Show('/')">÷</button></td>
+        <td><button onclick="Show('%')">per</button></td>
+        <td><button style=font-size:15px; onclick="Show('/')">div</button></td>
         
     </tr>
     <tr>
         <td><button onclick="Show(7)">7</button></td>
         <td><button onclick="Show(8)">8</button></td>
         <td><button onclick="Show(9)">9</button></td>
-        <td><button onclick="Show('*')">X</button></td>
+        <td><button onclick="Show('*')">mul</button></td>
         
     </tr>
     <tr>
         <td><button onclick="Show(4)">4</button></td>
         <td><button onclick="Show(5)">5</button></td>
         <td><button onclick="Show(6)">6</button></td>
-        <td><button style=font-size:30px; onclick="Show('-')">-</button></td>
+        <td><button style=font-size:15px; onclick="Show('-')">sub</button></td>
+      
         
     </tr>
     <tr>
-        <td><button id="btn" onclick="Show(1)">1</button></td>
+        <td><button onclick="Show(1)">1</button></td>
         <td><button onclick="Show(2)">2</button></td>
         <td><button onclick="Show(3)">3</button></td>
-        <td><button onclick="Show('+')">+</button></td>
+        <td><button onclick="Show('+')">add</button></td>
         
     </tr>
     <tr>
@@ -45,7 +45,13 @@
         <td><button onclick="Show('.')">.</button></td>
         <td><button onclick="exe()">=</button></td>
         
-    </tr>
+     </tr>
+        
+    <div class="btns">
+        <tr>
+        
+        
+        <td colspan="4"<button style=font-size:15px; onclick="Show('3.14')">pi</button></td>
     
     </div>
 </table>
